@@ -405,28 +405,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6576a1755ddffd988788025e75bce9e74b018f7cc226198fe931d077911c6d7e"
 
 [[package]]
-name = "example-erc721"
-version = "0.0.1"
-dependencies = [
- "chainbridge",
- "frame-support",
- "frame-system",
- "pallet-balances",
- "parity-scale-codec",
- "serde",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
- "substrate-wasm-builder-runner",
-]
-
-[[package]]
 name = "example-pallet"
 version = "0.0.1"
 dependencies = [
  "chainbridge",
- "example-erc721",
  "frame-support",
  "frame-system",
  "pallet-balances",

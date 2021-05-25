@@ -21,7 +21,6 @@ frame-support = { version = "3.0.0", default-features = false }
 frame-system = { version = "3.0.0", default-features = false }
 
 chainbridge = { path = "../chainbridge" , default-features = false}
-example-erc721 = { path = "../example-erc721", default-features = false }
 
 [dev-dependencies]
 pallet-balances = { version = "3.0.0", default-features = false }
@@ -40,6 +39,5 @@ std = [
     "sp-arithmetic/std",
 	"frame-support/std",
 	"frame-system/std",
-	"chainbridge/std",
-    "example-erc721/std"
+	"chainbridge/std"
 ]
